@@ -30,8 +30,8 @@ if-shell '[ "$(tmux show-option -gqv "clock-mode-style")" == "24" ]' {
 setw -g window-status-activity-style "underscore,fg=#a9b1d6,bg=#1f2335"
 setw -g window-status-separator ""
 setw -g window-status-style "NONE,fg=#a9b1d6,bg=#1f2335"
-setw -g window-status-format "#[fg=#565f89]#F#I:#W "
-setw -g window-status-current-format "#[fg=#7aa2f7,bg=#1f2335,bold]#F#I:#W #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]"
+setw -g window-status-format "#[fg=#565f89]#I:#W#F "
+setw -g window-status-current-format "#[fg=#7aa2f7,bg=#1f2335,bold]#I:#W#F #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]"
 
 set -g @prefix_highlight_fg '#1f2335'
 set -g @prefix_highlight_bg '#e0af68'
