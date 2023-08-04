@@ -33,5 +33,9 @@ setw -g window-status-style "NONE,fg=#a9b1d6,bg=#1f2335"
 setw -g window-status-format "#[fg=#565f89]#I:#W#F "
 setw -g window-status-current-format "#[fg=#7aa2f7,bg=#1f2335,bold]#I:#W#F #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]"
 
+set -g popup-border-style fg=#29a4bd
+
 set -g @prefix_highlight_fg '#1f2335'
 set -g @prefix_highlight_bg '#e0af68'
+set -g @prefix_highlight_sync_mode_attr 'fg=#1f2335,bg=#9ece6a'
+set -g @prefix_highlight_copy_mode_attr 'fg=#1f2335,bg=#bb9af7'
