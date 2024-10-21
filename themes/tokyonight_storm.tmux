@@ -8,6 +8,7 @@ set -g message-style "fg=#7aa2f7,bg=#3b4261"
 set -g message-command-style "fg=#7aa2f7,bg=#3b4261"
 
 set -g pane-border-style "fg=#3b4261"
+set -g pane-border-format "#[fg=white]#{?pane_active,#[bold],} #(basename #{pane_current_path}) #[fg=default,nobold]"
 set -g pane-active-border-style "fg=#7aa2f7"
 
 set -g status "on"
